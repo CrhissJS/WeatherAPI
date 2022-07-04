@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  width: 550px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, .9);
+  padding: 20px;
+  margin: 5% auto;
+  background-color: transparent;
+}
+
+
+.container-weather {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  opacity: .9999;
+  box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, .9);
+  background: transparent;
+}
+
+img {
+  position: relative;
+  width: 165px;
+  z-index: -2;
+  filter: none;
+  image-rendering: auto;
+  filter: drop-shadow(2px 2px 8px black) contrast(200%);
+
+}
+
+button {
+  margin-top: 30px;
+  justify-content: center;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background: transparent;
+  box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, .9);
+  font-weight: bold;
+  color: white;
+  text-shadow: 4px 4px 8px black;
+}
+
+button:hover {
+  text-shadow: 1px 1px 10px black;
+  transition: all 0s ease-in;
+  background:conic-gradient(#edc800, #e3b600, #f3cf00, #ffe800,
+								#edc800, #e3b600, #f3cf00, #ffe800,
+								#edc800, #e3b600, #f3cf00, #ffe800,
+								#edc800, #e3b600, #f3cf00, #ffe800);
+  cursor: pointer;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 80px;
+  padding: 0;
+}
+
+h3 {
+  color: white;
+  text-shadow: 4px 4px 7px whitesmoke;
+}
+
+.info-element {
+  display: inline;
+  font-size: 18px;
+  color: white;
+  text-shadow: 10px 10px 10px black;
+}
+
+h2,
+small {
+  color: white;
+  text-shadow: 10px 10px 10px black;
+}
+
+.location {
+  color: white;
+  text-shadow: 10px 10px 10px black;
+}
+
+h1 {
+  color: white;
+  text-shadow: 10px 10px 10px black;
+}
+
+.weatherInfo {
+  align-self: center;
+}
+
+.weather-info-title {
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-shadow: 10px 10px 10px black;
+  font-weight: 600;
+  color: white;
+}
+
+.loader-title {
+  color: white;
+}
+
+.fa-solid {
+  margin-right: 5px;
+  text-shadow: none;
+}
+
+.info-element {
+  font-size: smaller;
+}
+
+h1 {
+  font-size: 20px;
+
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 15px;
+}
